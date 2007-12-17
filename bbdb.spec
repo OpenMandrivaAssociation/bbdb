@@ -8,7 +8,6 @@ Group:		Editors
 Source:		ftp://ftp.sourceforge.net/pub/sourceforge/bbdb/%name-%version.tar.bz2
 
 URL:		http://bbdb.sourceforge.net/
-Buildroot:	%_tmppath/%name-%version-%release-root
 BuildRequires:	emacs xemacs texinfo 
 BuildArch:	noarch
 %define lispdir	%_datadir/emacs/site-lisp/bbdb
