@@ -1,7 +1,7 @@
 Summary:	The Insidious Big Brother Database
 Name:		bbdb
 Version:	2.35
-Release:	%mkrel 5
+Release:	%mkrel 6
 License:	GPL
 Group:		Editors
 
