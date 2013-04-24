@@ -1,7 +1,7 @@
 Summary:	The Insidious Big Brother Database
 Name:		bbdb
 Version:	2.36
-Release:	%mkrel 1
+Release:	2
 License:	GPL
 Group:		Editors
 Source:		ftp://ftp.sourceforge.net/pub/sourceforge/bbdb/%{name}-%{version}.tar.bz2
