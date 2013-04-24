@@ -68,8 +68,6 @@ if [ -x %{_bindir}/texhash -a -e %{_datadir}/texmf/ls-R ]; then
 	%{_bindir}/texhash
 fi
 
-%postun
-%_remove_install_info %{name}.info
 
 %files
 %defattr (-,root,root)
