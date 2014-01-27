@@ -63,7 +63,6 @@ EOF
 rm -fr %{buildroot}
 
 %post
-%_install_info %{name}.info
 if [ -x %{_bindir}/texhash -a -e %{_datadir}/texmf/ls-R ]; then
 	%{_bindir}/texhash
 fi
