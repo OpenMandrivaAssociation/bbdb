@@ -1,0 +1,12 @@
+diff -uNr bbdb-2.36/lisp/bbdb-mhe.el bbdb-2.36p/lisp/bbdb-mhe.el
+--- bbdb-2.36/lisp/bbdb-mhe.el	2007-04-26 10:01:24.000000000 +0300
++++ bbdb-2.36p/lisp/bbdb-mhe.el	2012-07-28 16:36:12.371926072 +0300
+@@ -33,7 +33,7 @@
+ 
+ (defmacro bbdb/mh-cache-key (message)
+   "Return a (numeric) key for MESSAGE"
+-  (`(let* ((attrs (file-attributes (, message)))
++  ( ` (let* ((attrs (file-attributes (, message)))
+            (status-time (nth 6 attrs))
+            (status-time-2 (cdr status-time))
+            (inode (nth 10 attrs)))
