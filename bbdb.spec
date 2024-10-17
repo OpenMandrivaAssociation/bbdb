@@ -7,7 +7,7 @@ Version:	2.36
 Release:	3
 License:	GPLv2+
 Group:		Editors
-Url:		http://bbdb.sourceforge.net/
+Url:		https://bbdb.sourceforge.net/
 Source0:	ftp://ftp.sourceforge.net/pub/sourceforge/bbdb/%{name}-%{version}.tar.bz2
 Patch0:		bbdb-2.36-fix_build.patch
 BuildRequires:	emacs
