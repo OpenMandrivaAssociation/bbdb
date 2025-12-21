@@ -10,6 +10,11 @@ Group:		Editors
 Url:		https://bbdb.sourceforge.net/
 Source0:	ftp://ftp.sourceforge.net/pub/sourceforge/bbdb/%{name}-%{version}.tar.bz2
 Patch0:		bbdb-2.36-fix_build.patch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	emacs
 BuildRequires:	texinfo
 Requires(post):	texlive-kpathsea
